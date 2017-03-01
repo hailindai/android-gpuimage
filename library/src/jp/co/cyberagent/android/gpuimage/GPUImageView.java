@@ -19,8 +19,6 @@ package jp.co.cyberagent.android.gpuimage;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.opengl.GLES20;
@@ -37,6 +35,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.nio.IntBuffer;
 import java.util.concurrent.Semaphore;
+
+import jp.co.cyberagent.android.gpuimage.filter.GPUImageFilter;
 
 public class GPUImageView extends FrameLayout {
 

@@ -26,6 +26,7 @@ import android.hardware.Camera.Size;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView.Renderer;
 
+import jp.co.cyberagent.android.gpuimage.filter.GPUImageFilter;
 import jp.co.cyberagent.android.gpuimage.util.TextureRotationUtil;
 
 import javax.microedition.khronos.egl.EGLConfig;
@@ -43,7 +44,7 @@ import static jp.co.cyberagent.android.gpuimage.util.TextureRotationUtil.TEXTURE
 @TargetApi(11)
 public class GPUImageRenderer implements Renderer, PreviewCallback {
     public static final int NO_IMAGE = -1;
-    static final float CUBE[] = {
+    public static final float CUBE[] = {
             -1.0f, -1.0f,
             1.0f, -1.0f,
             -1.0f, 1.0f,

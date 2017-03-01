@@ -16,7 +16,7 @@
 
 package jp.co.cyberagent.android.gpuimage.sample.activity;
 
-import jp.co.cyberagent.android.gpuimage.GPUImageFilter;
+import jp.co.cyberagent.android.gpuimage.filter.GPUImageFilter;
 import jp.co.cyberagent.android.gpuimage.GPUImageView;
 import jp.co.cyberagent.android.gpuimage.GPUImageView.OnPictureSavedListener;
 import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools;

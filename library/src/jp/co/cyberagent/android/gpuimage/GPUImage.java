@@ -42,7 +42,8 @@ import android.view.WindowManager;
 import java.io.*;
 import java.net.URL;
 import java.util.List;
-import java.util.concurrent.Semaphore;
+
+import jp.co.cyberagent.android.gpuimage.filter.GPUImageFilter;
 
 /**
  * The main accessor for GPUImage functionality. This class helps to do common
